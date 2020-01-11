@@ -8,8 +8,8 @@ nmp init
 
 node server.js
 ```
-<h2>Now open http://localhost:8030/</h2>
+<h4>Now open http://localhost:8030/</h4>
 
 
 <h3>Run on webserver</h3>
-<h2>Open indexweb.html</h2>
+<h4>Open indexweb.html</h4>
