@@ -1,14 +1,17 @@
 html,
 body {
   height: 100%;
+  width:100%;
+  display:flex;
 }
 
 .container {
   font-family: "Roboto";
-  /* margin: 20px auto 0; */
-  display: block;
-  /* padding: 10px 50px 50px; */
-  width:30%;float:left;
+  width:30%;
+}
+
+#mapid{
+  width:70%; height:100%;
 }
 h2 {
   text-align: center;
