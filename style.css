@@ -5,9 +5,22 @@ body {
   display:flex;
 }
 
+/*https://dev.to/domysee/keeping-the-footer-at-the-bottom-with-css-flexbox-5h5f*/
 .container {
   font-family: "Roboto";
   width:30%;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.subcontainer, .footer {
+  flex-shrink: 0;
+}
+
+.subcontainer {
+  flex-grow: 1;
 }
 
 #mapid{
