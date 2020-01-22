@@ -26,8 +26,7 @@
 </head>
 
 <body>
-<div >
-	<div class="containter" style="width:30%;float:left;">
+	<div class="container">
 		<a href="https://www.structomatic.ro"><img class="logo" src="logo.png" alt="Structomatic logo"></a>
         <h2>Simulator Panouri Fotovoltaice</h2>
     <div class="subcontainer">        
@@ -47,25 +46,25 @@
 		<h4> Longitudine: <span id="ptLong">?</span></h4>
 		<h4> Valoarea radiatiei solare: <span id="radValue">?</span> kW/mp</h4></div>
 
-			<form id="pvcalculator">
-		<p>
-		<label for="ariepv">Arie panouri PV  </label>
-		<input type="number" required placeholder="Arie panouri PV" id="ariepv" name="ariepv" class="form-control" value="6"> mp
-		</p>
-		<p>		
-			<label for="randamentpv">Randament modul </label>
-			<input type="number" required placeholder="Randament modul " id="randamentpv" name="randamentpv" class="form-control" value="15" step="any"> %
-		</p>
+		<form id="pvcalculator">
+      <p>
+      <label for="ariepv">Arie panouri PV  </label>
+      <input type="number" required placeholder="Arie panouri PV" id="ariepv" name="ariepv" class="form-control" value="6"> mp
+      </p>
+      <p>		
+        <label for="randamentpv">Randament modul </label>
+        <input type="number" required placeholder="Randament modul " id="randamentpv" name="randamentpv" class="form-control" value="15" step="any"> %
+      </p>
 
-		<p>
-			<label for="prpv">Raport performanta  </label>
-			<input type="number" required placeholder="Raport performanta  " id="prpv" name="prpv" class="form-control" value="75" step="any"> %
-		</p>
+      <p>
+        <label for="prpv">Raport performanta  </label>
+        <input type="number" required placeholder="Raport performanta  " id="prpv" name="prpv" class="form-control" value="75" step="any"> %
+      </p>
 
-		<p>
-		<label for="costkw">Cost energie </label>
-		<input type="number" required placeholder="Cost energie " id="costkw" name="costkw" class="form-control" value="0.67" step="any"> LEI/kW
-		</p>
+      <p>
+      <label for="costkw">Cost energie </label>
+      <input type="number" required placeholder="Cost energie " id="costkw" name="costkw" class="form-control" value="0.67" step="any"> LEI/kW
+      </p>
 		</form>
 		<button type="submit" form="pvcalculator">Calculeaza</button>
 		
@@ -73,16 +72,15 @@
 		<h4 id="toutput"> Total economisit: <span id="valeco">?</span> LEI/an</h4>
 		
 		<div class="footer">
-		<div class="sigle">		  
-		<img src="sigla1.png" alt="Structomatic logo">
-		<img src="sigla2.png" alt="Structomatic logo">  
-		<img src="sigla3.png" alt="Structomatic logo">  
-		</div>
+      <div class="sigle">
+      <img src="sigla1.png" alt="Structomatic logo">
+      <img src="sigla2.png" alt="Structomatic logo">  
+      <img src="sigla3.png" alt="Structomatic logo">  
+      </div>
 		</div>
 		
-    </div>
-    <div id="mapid" style="width:70%; height:100%;float:left;"></div>   
-</div>
+  </div>
+  <div id="mapid" style="width:70%; height:100%;float:left;"></div>   
 
 <script>
 	

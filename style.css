@@ -8,6 +8,7 @@ body {
   /* margin: 20px auto 0; */
   display: block;
   /* padding: 10px 50px 50px; */
+  width:30%;float:left;
 }
 h2 {
   text-align: center;
