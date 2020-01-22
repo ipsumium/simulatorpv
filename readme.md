@@ -12,4 +12,4 @@ node server.js
 
 
 <h3>Run on webserver</h3>
-<h4>Open indexweb.html</h4>
+<h4>Open index.html</h4>
