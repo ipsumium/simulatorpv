@@ -1,4 +1,4 @@
-<a href="https://ipsumium.github.io/simulatorpv/indexweb.html">DEMO</a>
+<a href="https://ipsumium.github.io/simulatorpv/index.html">DEMO</a>
 
 
 <h3>Run locally</h3>
